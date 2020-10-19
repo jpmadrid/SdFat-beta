@@ -301,7 +301,7 @@ static void enableGPIO(bool enable) {
 #if defined(ARDUINO_TEENSY41)  
                               IOMUXC_SW_PAD_CTL_PAD_DSE(1) |
 #else  // defined(ARDUINO_TEENSY41)                            
-                              IOMUXC_SW_PAD_CTL_PAD_DSE(4) |  ///// WHG
+                              IOMUXC_SW_PAD_CTL_PAD_DSE(5) |  ///// WHG
 #endif  // defined(ARDUINO_TEENSY41)
                               IOMUXC_SW_PAD_CTL_PAD_SPEED(2);
 
